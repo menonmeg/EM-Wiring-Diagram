@@ -1,4 +1,4 @@
-update=2/1/2016 4:31:47 PM
+update=2/1/2016 6:29:44 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=emdrive_500
+LibName32=EMR_Parts

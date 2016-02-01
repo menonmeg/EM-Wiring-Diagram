@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:EMR_Wiring_Diagram-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,7 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:emdrive_500
+LIBS:EMR_Parts
 LIBS:EMR_Wiring_Diagram-cache
 EELAYER 25 0
 EELAYER END
@@ -46,13 +47,13 @@ Comment4 ""
 $EndDescr
 $Comp
 L EMDrive_500 U?
-U 1 1 56AACBB9
-P 2950 2850
-F 0 "U?" H 3000 3600 60  0001 C CNN
-F 1 "EMDrive_500" H 3000 3600 60  0000 C CNN
-F 2 "" H 3000 3600 60  0000 C CNN
-F 3 "" H 3000 3600 60  0000 C CNN
-	1    2950 2850
+U 1 1 56AFEA7B
+P 3000 3100
+F 0 "U?" H 3050 3850 60  0001 C CNN
+F 1 "EMDrive_500" H 3050 3850 60  0000 C CNN
+F 2 "" H 3050 3850 60  0000 C CNN
+F 3 "" H 3050 3850 60  0000 C CNN
+	1    3000 3100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
