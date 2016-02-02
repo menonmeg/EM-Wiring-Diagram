@@ -166,6 +166,17 @@ F 3 "" H 9250 3600 60  0000 C CNN
 	1    8650 3050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Earth #PWR?
+U 1 1 56B15939
+P 3250 4650
+F 0 "#PWR?" H 3250 4400 50  0001 C CNN
+F 1 "Earth" H 3250 4500 50  0001 C CNN
+F 2 "" H 3250 4650 50  0000 C CNN
+F 3 "" H 3250 4650 50  0000 C CNN
+	1    3250 4650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3850 3800 4000 3800
 Wire Wire Line
@@ -194,10 +205,6 @@ Wire Wire Line
 	7700 5100 7150 5100
 Wire Wire Line
 	7700 4250 7500 4250
-Wire Wire Line
-	7500 4000 7500 5600
-Wire Wire Line
-	7500 4000 7150 4000
 Wire Wire Line
 	7700 4350 7400 4350
 Wire Wire Line
@@ -236,7 +243,7 @@ Wire Wire Line
 	7500 1150 7400 1150
 Connection ~ 9000 1700
 Wire Wire Line
-	9450 1500 9250 1500
+	9250 1500 9450 1500
 Wire Wire Line
 	9100 1150 9350 1150
 Wire Wire Line
@@ -253,8 +260,18 @@ Wire Wire Line
 Wire Wire Line
 	8650 3500 8650 2850
 Wire Wire Line
-	7500 5600 3250 5600
+	7150 4000 7500 4000
 Wire Wire Line
-	3250 5600 3250 4650
-Connection ~ 7500 4250
+	7500 4000 7500 4250
+$Comp
+L Earth #PWR?
+U 1 1 56B16319
+P 5700 5500
+F 0 "#PWR?" H 5700 5250 50  0001 C CNN
+F 1 "Earth" H 5700 5350 50  0001 C CNN
+F 2 "" H 5700 5500 50  0000 C CNN
+F 3 "" H 5700 5500 50  0000 C CNN
+	1    5700 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
