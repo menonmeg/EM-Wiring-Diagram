@@ -1,34 +1,6 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# BMS
-#
-DEF BMS U 0 40 Y Y 1 F N
-F0 "U" 0 0 60 H I C CNN
-F1 "BMS" 0 0 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -200 400 200 -400 0 1 0 N
-X Charge 1 0 -600 200 U 50 50 1 1 I
-X MODs 2 0 600 200 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Battery_Module
-#
-DEF Battery_Module U 0 40 Y Y 1 F N
-F0 "U" 0 0 60 H I C CNN
-F1 "Battery_Module" 0 0 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -500 300 550 -300 0 1 0 N
-X Bat+ 1 750 100 200 L 50 50 1 1 I
-X Bat- 2 750 -100 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Battery_Pack
 #
 DEF Battery_Pack U 0 40 Y Y 1 F N
@@ -110,7 +82,7 @@ C 0 0 447 0 1 0 N
 X L1 1 -600 -200 200 R 50 50 1 1 I
 X L2 2 -650 0 200 R 50 50 1 1 I
 X L3 3 -600 200 200 R 50 50 1 1 I
-X GND 4 0 -650 200 U 50 50 1 1 I
+X GND 4 0 650 200 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

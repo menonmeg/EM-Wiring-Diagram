@@ -167,42 +167,6 @@ F 3 "" H 9250 3600 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-L Battery_Pack U?
-U 1 1 56B13812
-P 10200 2300
-F 0 "U?" H 10200 2300 60  0001 C CNN
-F 1 "Battery_Pack" H 10200 2300 60  0000 C CNN
-F 2 "" H 10200 2300 60  0000 C CNN
-F 3 "" H 10200 2300 60  0000 C CNN
-	1    10200 2300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Battery_Pack U?
-U 1 1 56B1382C
-P 10200 3000
-F 0 "U?" H 10200 3000 60  0001 C CNN
-F 1 "Battery_Pack" H 10200 3000 60  0000 C CNN
-F 2 "" H 10200 3000 60  0000 C CNN
-F 3 "" H 10200 3000 60  0000 C CNN
-	1    10200 3000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Battery_Pack U?
-U 1 1 56B13846
-P 10200 3700
-F 0 "U?" H 10200 3700 60  0001 C CNN
-F 1 "Battery_Pack" H 10200 3700 60  0000 C CNN
-F 2 "" H 10200 3700 60  0000 C CNN
-F 3 "" H 10200 3700 60  0000 C CNN
-	1    10200 3700
-	-1   0    0    -1  
-=======
->>>>>>> Stashed changes
 L Earth #PWR?
 U 1 1 56B15939
 P 3250 4650
@@ -212,10 +176,6 @@ F 2 "" H 3250 4650 50  0000 C CNN
 F 3 "" H 3250 4650 50  0000 C CNN
 	1    3250 4650
 	1    0    0    -1  
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
 $EndComp
 Wire Wire Line
 	3850 3800 4000 3800
@@ -259,6 +219,8 @@ Connection ~ 7400 1600
 Wire Wire Line
 	9000 1700 9000 3600
 Wire Wire Line
+	7150 1700 9450 1700
+Wire Wire Line
 	7150 1600 7850 1600
 Wire Wire Line
 	7150 1800 7700 1800
@@ -300,63 +262,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 4000 7500 4000
 Wire Wire Line
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-	3250 5600 3250 4650
-Connection ~ 7500 4250
-Wire Wire Line
-	9000 3550 9000 3800
-Wire Wire Line
-	9000 3800 9450 3800
-Connection ~ 9000 3550
-Wire Wire Line
-	7150 1700 9000 1700
-Wire Wire Line
-	9450 1700 9450 2200
-Wire Wire Line
-	9450 2400 9450 2900
-Wire Wire Line
-	9450 3100 9450 3600
-$Comp
-L BMS U?
-U 1 1 56B13AE1
-P 10450 5100
-F 0 "U?" H 10450 5100 60  0001 C CNN
-F 1 "BMS" H 10450 5100 60  0000 C CNN
-F 2 "" H 10450 5100 60  0000 C CNN
-F 3 "" H 10450 5100 60  0000 C CNN
-	1    10450 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10450 4500 10450 4200
-Wire Wire Line
-	10450 4200 11000 4200
-Wire Wire Line
-	11000 4200 11000 1600
-Wire Wire Line
-	11000 1600 10900 1600
-Wire Wire Line
-	10900 2300 11000 2300
-Connection ~ 11000 2300
-Wire Wire Line
-	10900 3000 11000 3000
-Connection ~ 11000 3000
-Wire Wire Line
-	10900 3700 11000 3700
-Connection ~ 11000 3700
-$Comp
-L Battery 12V
-U 1 1 56B13E28
-P 5450 6450
-F 0 "12V" H 5550 6500 60  0000 L CNN
-F 1 "Battery" H 5550 6400 50  0000 L CNN
-F 2 "~" V 5450 6490 100 0000 C CNN
-F 3 "" V 5450 6490 50  0000 C CNN
-	1    5450 6450
-=======
->>>>>>> Stashed changes
 	7500 4000 7500 4250
 $Comp
 L Earth #PWR?
@@ -367,10 +272,6 @@ F 1 "Earth" H 5700 5350 50  0001 C CNN
 F 2 "" H 5700 5500 50  0000 C CNN
 F 3 "" H 5700 5500 50  0000 C CNN
 	1    5700 5500
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
