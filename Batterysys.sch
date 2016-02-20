@@ -2748,4 +2748,6 @@ Text HLabel 9800 1850 2    60   Input ~ 0
 BAT+
 Text HLabel 9800 1950 2    60   Input ~ 0
 BAT-
+Text HLabel 9800 2150 2    60   Input ~ 0
+BMS_12V
 $EndSCHEMATC
