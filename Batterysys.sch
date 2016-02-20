@@ -36,9 +36,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
+Title "Battery and BMS Systems"
+Date "2016-02-20"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
