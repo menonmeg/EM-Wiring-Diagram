@@ -155,17 +155,6 @@ F 3 "" H 9250 3600 60  0000 C CNN
 	1    8650 3050
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Earth #PWR?
-U 1 1 56B15939
-P 3250 4650
-F 0 "#PWR?" H 3250 4400 50  0001 C CNN
-F 1 "Earth" H 3250 4500 50  0001 C CNN
-F 2 "" H 3250 4650 50  0000 C CNN
-F 3 "" H 3250 4650 50  0000 C CNN
-	1    3250 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 3800 4000 3800
 Wire Wire Line
@@ -302,4 +291,41 @@ Wire Wire Line
 	7600 4000 7600 4200
 Wire Wire Line
 	7600 4200 7150 4200
+Wire Wire Line
+	3250 4650 3250 5450
+Wire Wire Line
+	3250 5450 5700 5450
+$Comp
+L Display U?
+U 1 1 56BFAE42
+P 2650 2000
+F 0 "U?" H 2650 2000 60  0001 C CNN
+F 1 "Display" H 2650 2000 60  0000 C CNN
+F 2 "" H 2650 2000 60  0000 C CNN
+F 3 "" H 2650 2000 60  0000 C CNN
+	1    2650 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1700 4150 1700
+Wire Wire Line
+	3500 1800 4150 1800
+Wire Wire Line
+	3500 1900 4150 1900
+Wire Wire Line
+	3500 2000 4150 2000
+Wire Wire Line
+	3500 2100 4150 2100
+Wire Wire Line
+	3500 2200 3800 2200
+Wire Wire Line
+	3800 2200 3800 2400
+Wire Wire Line
+	3800 2400 4150 2400
+Wire Wire Line
+	3500 2300 3700 2300
+Wire Wire Line
+	3700 2300 3700 2500
+Wire Wire Line
+	3700 2500 4150 2500
 $EndSCHEMATC
