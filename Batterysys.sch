@@ -2744,10 +2744,28 @@ Text HLabel 9800 1450 2    60   Input ~ 0
 CANL_BMS
 Text HLabel 9800 1550 2    60   Input ~ 0
 CANGND_BMS
-Text HLabel 9800 1850 2    60   Input ~ 0
+Text HLabel 4700 1250 1    60   Input ~ 0
 BAT+
-Text HLabel 9800 1950 2    60   Input ~ 0
+Text HLabel 2750 7100 3    60   Input ~ 0
 BAT-
 Text HLabel 9800 2150 2    60   Input ~ 0
 BMS_12V
+Wire Wire Line
+	2750 3800 2750 4500
+Wire Wire Line
+	2750 6850 2750 7100
+Wire Wire Line
+	4700 7100 4700 6850
+Wire Wire Line
+	4700 4500 4700 3800
+Wire Wire Line
+	4700 1450 4700 1250
+Wire Wire Line
+	2750 1450 2750 1250
+Wire Wire Line
+	2750 1250 3900 1250
+Wire Wire Line
+	3900 1250 3900 7100
+Wire Wire Line
+	3900 7100 4700 7100
 $EndSCHEMATC

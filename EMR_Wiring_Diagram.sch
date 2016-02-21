@@ -291,7 +291,7 @@ F 3 "" H 6350 7700 50  0000 C CNN
 	1    6350 7700
 	1    0    0    -1  
 $EndComp
-Text Notes 5050 3650 0    60   ~ 0
+Text Notes 5400 3650 0    60   ~ 0
 CONN2
 Text Notes 6650 3700 0    60   ~ 0
 CONN3
