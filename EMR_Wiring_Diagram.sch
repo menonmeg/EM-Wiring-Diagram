@@ -310,7 +310,7 @@ CONN16
 Text Notes 9100 3400 0    50   ~ 0
 CONN15\n
 Text Notes 6450 5450 0    50   ~ 0
-CONN8
+CONN5\n
 $Comp
 L Line_contactor U?
 U 1 1 56CA08E5

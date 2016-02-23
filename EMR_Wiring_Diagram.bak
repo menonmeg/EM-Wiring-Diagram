@@ -254,21 +254,21 @@ CONN3
 Text Notes 4550 5100 0    60   ~ 0
 CONN4
 Text Notes 7500 5900 0    50   ~ 0
-CONN10\n
-Text Notes 8200 5900 0    50   ~ 0
-CONN11\n
-Text Notes 7550 4100 0    50   ~ 0
-CONN9
-Text Notes 6550 2550 0    50   ~ 0
-CONN6
-Text Notes 8300 2200 0    50   ~ 0
-CONN12
-Text Notes 8300 2850 0    50   ~ 0
-CONN14\n
-Text Notes 8300 1150 0    50   ~ 0
-CONN13
-Text Notes 9200 1150 0    50   ~ 0
 CONN13\n
+Text Notes 8200 5900 0    50   ~ 0
+CONN14
+Text Notes 7850 4100 0    50   ~ 0
+CONN12
+Text Notes 6550 2550 0    50   ~ 0
+CONN8
+Text Notes 8300 2200 0    50   ~ 0
+CONN9
+Text Notes 8300 2850 0    50   ~ 0
+CONN10\n
+Text Notes 8300 1150 0    50   ~ 0
+CONN7
+Text Notes 9200 1150 0    50   ~ 0
+CONN6\n
 Text Label 8400 4950 0    50   ~ 0
 GND
 Text Label 7600 4900 0    50   ~ 0
@@ -305,6 +305,117 @@ F 3 "" H 9230 3910 60  0000 C CNN
 	1    9250 3650
 	0    1    1    0   
 $EndComp
+Text Notes 9100 4750 0    50   ~ 0
+CONN16
+Text Notes 9100 3400 0    50   ~ 0
+CONN15\n
+Text Notes 6450 5450 0    50   ~ 0
+CONN8
+$Comp
+L Line_contactor U?
+U 1 1 56CA08E5
+P 9400 2700
+F 0 "U?" H 10000 3250 60  0001 C CNN
+F 1 "Line_contactor" H 10000 3250 60  0000 C CNN
+F 2 "" H 10000 3250 60  0000 C CNN
+F 3 "" H 10000 3250 60  0000 C CNN
+	1    9400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R
+U 1 1 56CBC331
+P 6700 3350
+F 0 "R" V 6780 3350 50  0000 C CNN
+F 1 "1K" V 6700 3350 50  0000 C CNN
+F 2 "" V 6630 3350 50  0000 C CNN
+F 3 "" H 6700 3350 50  0000 C CNN
+	1    6700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 56CBC3C4
+P 6700 3700
+F 0 "D2" H 6700 3800 50  0000 C CNN
+F 1 "LED" H 6700 3600 50  0000 C CNN
+F 2 "" H 6700 3700 50  0000 C CNN
+F 3 "" H 6700 3700 50  0000 C CNN
+	1    6700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch_DPST EMG_SWT1
+U 1 1 56CBE29B
+P 8400 1500
+F 0 "EMG_SWT1" H 8700 1550 50  0000 C CNN
+F 1 "Button" H 8700 1450 50  0000 C CNN
+F 2 "" H 8400 1500 50  0000 C CNN
+F 3 "" H 8400 1500 50  0000 C CNN
+	1    8400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch_DPST EMG_SWT2
+U 1 1 56CBE4EE
+P 9300 1500
+F 0 "EMG_SWT2" H 9600 1550 50  0000 C CNN
+F 1 "Lanyard" H 9600 1450 50  0000 C CNN
+F 2 "" H 9300 1500 50  0000 C CNN
+F 3 "" H 9300 1500 50  0000 C CNN
+	1    9300 1500
+	1    0    0    -1  
+$EndComp
+Text Label 6700 4800 0    60   ~ 0
+B-
+Text Label 6700 4700 0    60   ~ 0
+B+
+Text Label 8200 4300 0    60   ~ 0
+B+
+Text Label 8550 4200 0    60   ~ 0
+B-
+Text Label 9200 2900 0    60   ~ 0
+B-
+Text Label 9500 3150 0    60   ~ 0
+12V
+Text Label 9300 2700 0    60   ~ 0
+B+
+Text Label 10500 2300 0    60   ~ 0
+12V
+Text Label 7100 3000 0    60   ~ 0
+GND
+Text Label 2700 5400 0    60   ~ 0
+BLK
+Text Label 2650 5200 0    60   ~ 0
+RED
+Text Label 2700 5000 0    60   ~ 0
+BLUE
+Text Label 10850 2700 0    60   ~ 0
+RED
+Text Label 10850 2900 0    60   ~ 0
+BLK
+Text Label 7500 4700 0    60   ~ 0
+RED
+Text Label 7400 4800 0    60   ~ 0
+BLK
+Text Label 6100 2800 0    60   ~ 0
+GRN
+Text Label 6950 4100 0    60   ~ 0
+WHT
+Text Label 6200 4900 0    60   ~ 0
+GREY
+Text Label 6200 5050 0    60   ~ 0
+GREY
+Text Label 6550 3000 0    60   ~ 0
+BRWN
+Text Label 7000 1300 0    60   ~ 0
+BRWN
+Text Label 6700 900  0    60   ~ 0
+YLLW
+Text Label 7950 2550 0    60   ~ 0
+PINK
+Text Label 10850 3150 0    60   ~ 0
+PINK
 Wire Wire Line
 	1900 3300 2850 3300
 Wire Wire Line
@@ -567,10 +678,6 @@ Wire Notes Line
 	9900 4650 9100 4650
 Wire Notes Line
 	9100 4650 9100 3950
-Text Notes 9100 4750 0    50   ~ 0
-CONN16
-Text Notes 9100 3400 0    50   ~ 0
-CONN15\n
 Wire Wire Line
 	6400 5150 5550 5150
 Wire Wire Line
@@ -587,8 +694,6 @@ Wire Notes Line
 	6450 5450 6450 5100
 Wire Notes Line
 	6450 5100 5800 5100
-Text Notes 6450 5450 0    50   ~ 0
-CONN8
 Wire Wire Line
 	7300 6000 8500 6000
 Wire Wire Line
@@ -602,17 +707,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 5750 7800 6000
 Connection ~ 7800 6000
-$Comp
-L Line_contactor U?
-U 1 1 56CA08E5
-P 9400 2700
-F 0 "U?" H 10000 3250 60  0001 C CNN
-F 1 "Line_contactor" H 10000 3250 60  0000 C CNN
-F 2 "" H 10000 3250 60  0000 C CNN
-F 3 "" H 10000 3250 60  0000 C CNN
-	1    9400 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10400 2700 11350 2700
 Wire Wire Line
@@ -625,56 +719,12 @@ Wire Wire Line
 Connection ~ 7950 3000
 Wire Wire Line
 	6300 2800 6300 3450
-$Comp
-L R R
-U 1 1 56CBC331
-P 6700 3350
-F 0 "R" V 6780 3350 50  0000 C CNN
-F 1 "1K" V 6700 3350 50  0000 C CNN
-F 2 "" V 6630 3350 50  0000 C CNN
-F 3 "" H 6700 3350 50  0000 C CNN
-	1    6700 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D2
-U 1 1 56CBC3C4
-P 6700 3700
-F 0 "D2" H 6700 3800 50  0000 C CNN
-F 1 "LED" H 6700 3600 50  0000 C CNN
-F 2 "" H 6700 3700 50  0000 C CNN
-F 3 "" H 6700 3700 50  0000 C CNN
-	1    6700 3700
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6700 3200 6300 3200
 Connection ~ 6300 3200
 Wire Wire Line
 	6700 3900 6300 3900
 Connection ~ 6300 3900
-$Comp
-L Switch_DPST EMG_SWT1
-U 1 1 56CBE29B
-P 8400 1500
-F 0 "EMG_SWT1" H 8700 1550 50  0000 C CNN
-F 1 "Button" H 8700 1450 50  0000 C CNN
-F 2 "" H 8400 1500 50  0000 C CNN
-F 3 "" H 8400 1500 50  0000 C CNN
-	1    8400 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch_DPST EMG_SWT2
-U 1 1 56CBE4EE
-P 9300 1500
-F 0 "EMG_SWT2" H 9600 1550 50  0000 C CNN
-F 1 "Lanyard" H 9600 1450 50  0000 C CNN
-F 2 "" H 9300 1500 50  0000 C CNN
-F 3 "" H 9300 1500 50  0000 C CNN
-	1    9300 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 1700 8100 1700
 Wire Wire Line
@@ -690,56 +740,32 @@ Wire Wire Line
 Connection ~ 5800 1950
 Wire Wire Line
 	9000 1300 8700 1300
-Text Label 6700 4800 0    60   ~ 0
-B-
-Text Label 6700 4700 0    60   ~ 0
-B+
-Text Label 8200 4300 0    60   ~ 0
-B+
-Text Label 8550 4200 0    60   ~ 0
-B-
-Text Label 9200 2900 0    60   ~ 0
-B-
-Text Label 9500 3150 0    60   ~ 0
-12V
-Text Label 9300 2700 0    60   ~ 0
-B+
-Text Label 10500 2300 0    60   ~ 0
-12V
-Text Label 7100 3000 0    60   ~ 0
-GND
-Text Label 2700 5400 0    60   ~ 0
-BLK
-Text Label 2650 5200 0    60   ~ 0
-RED
-Text Label 2700 5000 0    60   ~ 0
-BLUE
-Text Label 10850 2700 0    60   ~ 0
-RED
-Text Label 10850 2900 0    60   ~ 0
-BLK
-Text Label 7500 4700 0    60   ~ 0
-RED
-Text Label 7400 4800 0    60   ~ 0
-BLK
-Text Label 6100 2800 0    60   ~ 0
-GRN
-Text Label 6950 4100 0    60   ~ 0
-WHT
-Text Label 6200 4900 0    60   ~ 0
-GREY
-Text Label 6200 5050 0    60   ~ 0
-GREY
-Text Label 6550 3000 0    60   ~ 0
-BRWN
-Text Label 7000 1300 0    60   ~ 0
-BRWN
-Text Label 6700 900  0    60   ~ 0
-YLLW
-Text Label 7950 2550 0    60   ~ 0
-PINK
-Text Label 10850 3150 0    60   ~ 0
-PINK
 Wire Wire Line
 	9600 900  9600 1300
+Wire Notes Line
+	8100 1000 8900 1000
+Wire Notes Line
+	8900 1000 8900 1800
+Wire Notes Line
+	8900 1800 8100 1800
+Wire Notes Line
+	8100 1800 8100 1000
+Wire Notes Line
+	9000 1000 9000 1800
+Wire Notes Line
+	9000 1800 9800 1800
+Wire Notes Line
+	9800 1800 9800 1000
+Wire Notes Line
+	9800 1000 9000 1000
+Wire Notes Line
+	9500 2000 10400 2000
+Wire Notes Line
+	10400 2000 10400 2800
+Wire Notes Line
+	10400 2800 9500 2800
+Wire Notes Line
+	9500 2800 9500 2000
+Text Notes 9850 2000 0    60   ~ 0
+CONN11
 $EndSCHEMATC
